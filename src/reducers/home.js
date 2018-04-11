@@ -1,4 +1,4 @@
-const articles = (state = {}, action) => {
+const home = (state = {}, action) => {
     switch (action.type) {
         case "INIT":
             return {
@@ -10,4 +10,4 @@ const articles = (state = {}, action) => {
     }
 };
 
-export default articles;
+export default home;
